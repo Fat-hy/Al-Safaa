@@ -29,10 +29,10 @@ Version:	1.1
 * Clients CSS
 * Team CSS
 	+ Single Team
-* Blog CSS
-	+ Latest Blog CSS
-	+ Blog Single CSS
-	+ Blog Sidebar CSS
+* explore CSS
+	+ Latest explore CSS
+	+ explore Single CSS
+	+ explore Sidebar CSS
 * Appointment CSS
 * Login CSS
 * Register CSS
@@ -365,7 +365,7 @@ body {
 }
 
 #nav-logo {
-	max-width: 60%;
+	max-width: 30%;
 }
 
 .header .navbar {
@@ -696,6 +696,31 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 }
+
+.slider .single-slider {
+	position: relative;
+}
+
+.slider .single-slider::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .4);
+	/* Adjust the last value (0.5) to change the darkness level */
+	z-index: 1;
+}
+
+.slider .single-slider .container {
+	position: relative;
+	z-index: 2;
+	color: #fff;
+	/* Set text color to white or any other color that contrasts with the overlay */
+}
+
+/* Rest of your existing CSS styles */
 
 .slider .single-slider .text {
 	margin-top: 120px;
@@ -2312,17 +2337,17 @@ body {
 ======================*/
 
 /*=======================
-	Start Blog CSS
+	Start explore CSS
 =========================*/
-.blog {
+.explore {
 	background: #fff;
 }
 
-.blog .blog-title {
+.explore .explore-title {
 	text-align: center;
 }
 
-.blog .single-news {
+.explore .single-news {
 	background: #fff;
 	position: relative;
 	-webkit-transition: all 0.4s ease;
@@ -2331,7 +2356,7 @@ body {
 	box-shadow: 0px 0px 10px #00000014;
 }
 
-.blog .single-news img {
+.explore .single-news img {
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -2340,12 +2365,12 @@ body {
 	transition: all 0.4s ease;
 }
 
-.blog .single-news .news-head {
+.explore .single-news .news-head {
 	position: relative;
 	overflow: hidden;
 }
 
-.blog .single-news .news-content {
+.explore .single-news .news-content {
 	text-align: left;
 	background: #fff;
 	z-index: 99;
@@ -2355,7 +2380,7 @@ body {
 	z-index: 0;
 }
 
-.blog .single-news .news-content:before {
+.explore .single-news .news-content:before {
 	position: absolute;
 	content: "";
 	left: 0;
@@ -2370,29 +2395,29 @@ body {
 	transition: all 0.4s ease;
 }
 
-.blog .single-news:hover .news-content:before {
+.explore .single-news:hover .news-content:before {
 	opacity: 1;
 	visibility: visible;
 	width: 100%;
 }
 
-.blog .single-news .news-body h2 {
+.explore .single-news .news-body h2 {
 	font-size: 18px;
 	font-weight: 600;
 	margin-bottom: 10px;
 	line-height: 24px;
 }
 
-.blog .single-news .news-body h2 a {
+.explore .single-news .news-body h2 a {
 	color: #2C2D3F;
 	font-weight: 500;
 }
 
-.blog .single-news .news-body h2 a:hover {
+.explore .single-news .news-body h2 a:hover {
 	color: #6C3F1C;
 }
 
-.blog .single-news .news-content p {
+.explore .single-news .news-content p {
 	font-weight: 400;
 	text-transform: capitalize;
 	font-size: 13px;
@@ -2400,7 +2425,7 @@ body {
 	line-height: 23px;
 }
 
-.blog .single-news .news-body .date {
+.explore .single-news .news-body .date {
 	display: inline-block;
 	font-size: 14px;
 	margin-bottom: 5px;
@@ -2412,11 +2437,11 @@ body {
 	margin-bottom: 10px;
 }
 
-.blog.grid .single-news {
+.explore.grid .single-news {
 	margin-top: 30px;
 }
 
-/* Blog Sidebar */
+/* explore Sidebar */
 .main-sidebar {
 	background: #fff;
 	margin-top: 30px;
@@ -2607,7 +2632,7 @@ body {
 	margin-right: 5px;
 }
 
-/* Blog Tags */
+/* explore Tags */
 .main-sidebar .side-tags .tag {
 	margin-top: 40px;
 }
@@ -2672,7 +2697,7 @@ body {
 	color: #6C3F1C;
 }
 
-/* Blog Meta */
+/* explore Meta */
 .news-single {
 	background: #fff;
 }
@@ -2784,7 +2809,7 @@ body {
 	position: relative;
 }
 
-.news-single .blog-bottom {
+.news-single .explore-bottom {
 	overflow: hidden;
 }
 
@@ -2864,8 +2889,8 @@ body {
 	border-color: transparent;
 }
 
-/* Blog Comments */
-.news-single .blog-comments {
+/* explore Comments */
+.news-single .explore-comments {
 	margin-top: 30px;
 	background: transparent;
 	-webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.10);
@@ -2875,7 +2900,7 @@ body {
 	padding: 30px;
 }
 
-.news-single .blog-comments h2 {
+.news-single .explore-comments h2 {
 	text-align: left;
 	text-transform: capitalize;
 	font-size: 18px;
@@ -2883,7 +2908,7 @@ body {
 	margin-bottom: 20px;
 }
 
-.news-single .blog-comments h4 span {
+.news-single .explore-comments h4 span {
 	float: right;
 }
 
@@ -3165,7 +3190,7 @@ body {
 }
 
 /*===================
-	End Blog CSS
+	End explore CSS
 =====================*/
 
 /*==========================
