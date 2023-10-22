@@ -97,7 +97,6 @@ body {
 	font-size: 15px;
 }
 
-.pro-features .button {}
 
 .pro-features .button .btn {
 	width: 100%;
@@ -959,7 +958,6 @@ body {
 	margin-left: 10px;
 }
 
-.schedule .single-schedule .time-sidual {}
 
 .schedule .single-schedule .time-sidual {
 	overflow: hidden;
@@ -1085,7 +1083,6 @@ body {
 	background-repeat: no-repeat;
 }
 
-.fun-facts .single-fun {}
 
 .fun-facts .single-fun i {
 	position: absolute;
@@ -1167,7 +1164,6 @@ body {
 	margin-bottom: 35px;
 }
 
-.why-choose .choose-left .list {}
 
 .why-choose .choose-left .list li {
 	color: #868686;
@@ -1488,7 +1484,7 @@ body {
 	margin-right: 5px;
 }
 
-.pf-details .body-text {}
+
 
 .pf-details .body-text h3 {
 	font-size: 30px;
@@ -1729,7 +1725,7 @@ body {
 	border-radius: 3px;
 	margin: 0 0 0 -52px;
 	margin-top: 49px;
-	box-sizing: ;
+
 }
 
 .testimonials .owl-dots .owl-dot {
@@ -1830,7 +1826,6 @@ body {
 	margin-top: 3px;
 }
 
-.departments .department-tab .tab-pane .department-left {}
 
 .departments .department-tab .tab-pane .department-left h3 {
 	color: #2C2D3F;
@@ -1861,7 +1856,6 @@ body {
 	margin-bottom: 20px;
 }
 
-.departments .department-tab .tab-pane .department-left .list {}
 
 .departments .department-tab .tab-pane .department-left .list li {
 	position: relative;
@@ -2028,7 +2022,7 @@ body {
 	position: relative;
 }
 
-.clients .single-clients {}
+
 
 .clients .single-clients img {
 	width: 100%;
@@ -2261,7 +2255,7 @@ body {
 	margin-top: 30px;
 }
 
-.doctor-details-item .doctor-details-work .time-sidual {}
+
 
 .doctor-details-item .doctor-details-work .time-sidual {
 	overflow: hidden;
@@ -2289,7 +2283,6 @@ body {
 	padding-top: 70px;
 }
 
-.doctor-details-item .doctor-details-biography {}
 
 .doctor-details-item .doctor-details-biography h3 {
 	font-weight: 600;
@@ -2675,8 +2668,6 @@ body {
 	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.10);
 	border-radius: 8px;
 }
-
-.news-single .news-head {}
 
 .news-single .news-head img {
 	width: 100%;
@@ -3076,7 +3067,6 @@ body {
 	text-transform: capitalize;
 }
 
-.news-single .form {}
 
 .news-single .form-group {
 	position: relative;
@@ -3214,7 +3204,6 @@ body {
 	border-radius: 5px;
 }
 
-.appointment.single-page .title {}
 
 .appointment.single-page .title h3 {
 	font-size: 25px;
@@ -3223,13 +3212,11 @@ body {
 	font-weight: 600;
 }
 
-.appointment.single-page .title p {}
 
 .appointment .form {
 	margin-top: 30px;
 }
 
-.appointment .form .form-group {}
 
 .appointment .form input {
 	width: 100%;
@@ -3292,7 +3279,6 @@ body {
 	background: #6C3F1C;
 }
 
-.appointment .appointment-image {}
 
 .appointment.single-page .button .btn {
 	width: 100%;
@@ -3714,94 +3700,78 @@ body {
 /*=====================
    Start Faq CSS
 =======================*/
-.faq-head h2 {
-	margin-bottom: 35px;
-	font-weight: 600;
-	font-size: 25px;
-}
 
-.faq-wrap {
-	margin-bottom: 50px;
-}
-
-.faq-wrap:last-child {
-	margin-bottom: 30px;
-}
-
-.accordion {
-	padding-left: 0;
-	margin: 0;
-	padding: 0;
-}
-
-.accordion p {
-	font-size: 15px;
-	display: none;
-	padding: 20px 45px 15px 20px;
-	margin-bottom: 0;
-}
-
-.accordion a {
-	font-size: 16px;
-	width: 100%;
+.clearfix:after {
+	visibility: hidden;
 	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.dotless {
+	list-style: none;
+}
+
+.dropdown-container {
+	max-width: 90cqw;
+	min-width: 300px;
+	margin: 1rem auto;
+	background-color: white;
+	color: #333;
+	overflow: hidden;
+}
+
+.dropdown-container {
+	/* background-color: rgba(255, 255, 255, 0.29); */
+	font-weight: 400;
+}
+
+.dropdown-container header {
 	cursor: pointer;
 	font-weight: 400;
-	padding: 15px 0 15px 18px;
-	border-radius: 0;
-	background: #fff;
-	color: #333;
-	border: 1px solid #eee;
+	font-size: smaller;
+	padding: 1rem;
+	background-color: #613919;
+	border-radius: 1em;
+	color: white;
+	transition: background-color 350ms ease-in-out;
 }
 
-.accordion a:hover {
-	color: #fff !important;
-	background: #6C3F1C !important;
+.dropdown-container.open header {
+	background-color: #613919;
 }
 
-.accordion a:after {
-	position: absolute;
-	right: 20px;
-	content: "+";
-	top: 16px;
-	color: #232323;
-	font-size: 25px;
-	font-weight: 700;
+.dropdown-container h1 {
+	float: left;
+	font-size: 22px;
+	color: #fff;
 }
 
-.accordion a:hover:after {
-	color: #fff !important;
+.dropdown-container .expand {
+	float: right;
+	transform: rotate(45deg);
+	font-size: 1.8em;
+	transition: transform 350ms ease-in-out;
 }
 
-.accordion li {
-	position: relative;
-	list-style-type: none;
-	margin-bottom: 30px;
+.dropdown-container.open .expand {
+	transform: rotate(0);
 }
 
-.accordion li:first-child {
-	border-top: 0;
+
+.dropdown-container article {
+	max-height: 0px;
+	overflow: hidden;
+	line-height: 1.6;
+	transition: max-height 350ms ease-in-out;
 }
 
-.accordion li:last-child {
-	margin-bottom: 0;
+/* padding can't be on article element because it won't collapse properly, add wrapper around contents */
+.dropdown-container .article-inner {
+	padding: 1rem;
 }
-
-.accordion li a.active {
-	color: #ffffff;
-	background-color: #6C3F1C;
-	border: 1px solid #6C3F1C;
-}
-
-.accordion li a.active:after {
-	content: "-";
-	font-size: 25px;
-	color: #ffffff;
-}
-
-/*=====================
-   End Faq CSS
-=======================*/
 
 /*=========================
    Start Contact Us CSS
@@ -3969,6 +3939,7 @@ body {
 }
 
 .contact-us .single-info {
+	margin: 1em;
 	background: #6C3F1C;
 	padding: 40px 60px;
 	height: 150px;
@@ -4032,195 +4003,29 @@ body {
 	margin-top: 5px;
 }
 
-/* Google Map */
-.contact-us #myMap {
-	height: 100%;
-	width: 100%;
+/* Target the <ul> elements inside the Contact Us section */
+.contact-us ul {
+	list-style: none;
+	padding: 1.5em;
+}
+
+.contact-us ul li {
+	color: #333;
+	margin-bottom: 10px;
+}
+
+/* Target the <p> tag inside the Contact Us section */
+.contact-us p {
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	margin-bottom: 20px;
 }
 
 /*=========================
    End Contact Us CSS
 ===========================*/
 
-/*========================
-	Start Error 404 CSS
-==========================*/
-.error-page {
-	text-align: center;
-	background: #fff;
-	border-top: 1px solid #eee;
-}
-
-.error-page .error-inner {
-	display: inline-block;
-}
-
-.error-page .error-inner h1 {
-	font-size: 140px;
-	text-shadow: 3px 5px 2px #3333;
-	color: #6C3F1C;
-	font-weight: 700;
-}
-
-.error-page .error-inner h1 span {
-	display: block;
-	font-size: 25px;
-	color: #333;
-	font-weight: 600;
-	text-shadow: none;
-}
-
-.error-page .error-inner p {
-	padding: 20px 15px;
-}
-
-.error-page .search-form {
-	width: 100%;
-	position: relative;
-}
-
-.error-page .search-form input {
-	width: 400px;
-	height: 50px;
-	padding: 0px 78px 0 30px;
-	border: none;
-	background: #f6f6f6;
-	border-radius: 5px;
-	display: inline-block;
-	margin-right: 10px;
-	font-weight: 400;
-	font-size: 14px;
-}
-
-.error-page .search-form input:hover {
-	padding-left: 35px;
-}
-
-.error-page .search-form .btn {
-	width: 80px;
-	height: 50px;
-	border-radius: 5px;
-	cursor: pointer;
-	background: #6C3F1C;
-	display: inline-block;
-	position: relative;
-	top: -2px;
-}
-
-.error-page .search-form .btn i {
-	font-size: 16px;
-}
-
-/*========================
-	End Error 404 CSS
-==========================*/
-
-/*===========================
-	Start Mail Success CSS
-=============================*/
-.mail-seccess {
-	text-align: center;
-	background: #fff;
-	border-top: 1px solid #eee;
-}
-
-.mail-seccess .success-inner {
-	display: inline-block;
-}
-
-.mail-seccess .success-inner h1 {
-	font-size: 100px;
-	text-shadow: 3px 5px 2px #3333;
-	color: #6C3F1C;
-	font-weight: 700;
-}
-
-.mail-seccess .success-inner h1 span {
-	display: block;
-	font-size: 25px;
-	color: #333;
-	font-weight: 600;
-	text-shadow: none;
-	margin-top: 20px;
-}
-
-.mail-seccess .success-inner p {
-	padding: 20px 15px;
-}
-
-.mail-seccess .success-inner .btn {
-	color: #fff;
-}
-
-/*===========================
-	End Mail Success CSS
-=============================*/
-
-/*=========================
-	Start Newsletter CSS
-===========================*/
-.newsletter {
-	background: #EDF2FF;
-}
-
-.newsletter .subscribe-text {}
-
-.newsletter .subscribe-text h6 {
-	font-size: 22px;
-	margin-bottom: 10px;
-	color: #2C2D3F;
-}
-
-.newsletter .subscribe-text p {}
-
-.newsletter .subscribe-form {
-	position: relative;
-}
-
-.newsletter .common-input {
-	height: 60px;
-	width: 300px;
-	border: none;
-	color: #333;
-	box-shadow: none;
-	text-shadow: none;
-	border-radius: 5px;
-	padding: 0px 25px;
-	font-weight: 500;
-	font-size: 14px;
-	background: #fff;
-	font-weight: 400;
-}
-
-.newsletter .btn {
-	-webkit-transition: all 0.4s ease;
-	-moz-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-	display: inline-block;
-	height: 60px;
-	line-height: 60px;
-	padding: 0;
-	width: 180px;
-	position: relative;
-	top: -2px;
-	border-radius: 5px;
-	margin-left: 10px;
-	font-size: 13px;
-	font-weight: 500;
-	box-shadow: 0px 5px 15px rgba(188, 199, 255, 0.75);
-}
-
-.newsletter .btn:before {
-	border-radius: 5px;
-}
-
-.newsletter .button:hover {
-	box-shadow: none;
-}
-
-/*=========================
-	End Newsletter CSS
-===========================*/
 
 /*===============================
 	Start Doctor Calendar CSS
@@ -4663,7 +4468,6 @@ body {
 	opacity: 0.1;
 }
 
-.footer .single-footer {}
 
 .footer .single-footer .social {
 	margin-top: 25px;
@@ -4698,7 +4502,6 @@ body {
 	border-color: transparent;
 }
 
-.footer .single-footer .social li a i {}
 
 .footer .single-footer.f-link li a i {
 	margin-right: 10px;
@@ -4786,29 +4589,6 @@ body {
 	position: relative;
 }
 
-.footer .single-footer .newsletter-inner input {
-	background: transparent;
-	border: 1px solid #fff;
-	height: 50px;
-	line-height: 42px;
-	width: 100%;
-	margin-right: 15px;
-	color: #fff;
-	padding-left: 18px;
-	padding-right: 70px;
-	display: inline-block;
-	float: left;
-	border-radius: 0px;
-	-webkit-transition: all 0.4s ease;
-	-moz-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-	font-weight: 400;
-	border-radius: 5px;
-}
-
-.footer .single-footer .newsletter-inner input:hover {
-	padding-left: 22px;
-}
 
 .footer input::-webkit-input-placeholder {
 	opacity: 1;
