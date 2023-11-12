@@ -185,6 +185,7 @@ Version:	1.1
 		height: 100%;
 		width: 100%;
 		background: #fff;
+		background: rgba(0, 0, 0, .4);
 		opacity: 0.5;
 	}
 
@@ -741,6 +742,7 @@ Version:	1.1
 		height: 100%;
 		width: 100%;
 		background: #fff;
+		background: rgba(0, 0, 0, .4);
 		opacity: 0.5;
 	}
 
@@ -1340,6 +1342,7 @@ Version:	1.1
 
 	.slider .single-slider {
 		position: relative;
+		background: rgba(0, 0, 0, .4);
 	}
 
 	.slider .single-slider:before {
@@ -1350,6 +1353,7 @@ Version:	1.1
 		height: 100%;
 		width: 100%;
 		background: #fff;
+		background: rgba(0, 0, 0, .4);
 		opacity: 0.5;
 	}
 
