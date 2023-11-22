@@ -4661,11 +4661,93 @@ body {
 }
 
 
-/* Gallery CSS */
+/* Timeline  CSS */
+.timeline-box {
+	max-width: 100%;
+	background-color: #f9f9f9;
+}
+
+.timeline {
+	max-width: 80%;
+	background-color: #f9f9f9;
+	color: #fff;
+	padding: 30px 80px;
+	margin: auto;
+}
+
+.timeline ul {
+	list-style-type: none;
+	border-left: 2px solid #613919;
+	padding: 10px 5px;
+}
+
+.timeline ul li {
+	padding: 20px 20px;
+	position: relative;
+	transition: .5s;
+}
+
+.timeline ul li span {
+	display: inline-block;
+	background-color: #613919;
+	border-radius: 25px;
+	padding: 7px 14px;
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 8px;
+}
+
+.timeline ul li .content h3 {
+	color: #2c2d2c;
+	font-size: 17px;
+	padding-top: 5px;
+}
+
+.timeline ul li .content p {
+	padding: 5px 0px 15px 0px;
+	font-size: 15px;
+}
+
+.timeline ul li:before {
+	position: absolute;
+	content: '';
+	width: 10px;
+	height: 10px;
+	background-color: #613919;
+	border-radius: 50%;
+	left: -11px;
+	top: 28px;
+	transition: .5s;
+}
 
 
-/* End Gallery */
 
+@media (max-width:300px) {
+	.timeline {
+		width: 100%;
+		padding: 30px 5px 30px 10px;
+	}
+
+	.timeline ul li .content h3 {
+		color: #613919;
+		font-size: 15px;
+	}
+
+}
+
+/* End Timeline CSS */
+
+.quran-quote {
+	background-color: #613919;
+
+}
+
+.quran-quote>* {
+	font-weight: 600;
+	font-size: 2rem;
+	line-height: 1.5;
+	font-style: italic;
+}
 
 /*=========================
 	End New CSS
