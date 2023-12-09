@@ -4948,7 +4948,9 @@ body {
 .pricing-block .btn-box {
 	position: relative;
 	text-align: center;
+	border-radius: 10px;
 }
+
 
 .pricing-block .btn-box a {
 	position: relative;
