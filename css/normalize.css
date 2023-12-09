@@ -1,11 +1,3 @@
-/* =====================================
-Template Name: 	Mediplus.
-Author Name: Naimur Rahman
-Website: http://wpthemesgrid.com/
-Description: Mediplus - Doctor HTML Template.
-Version:	1.1
-========================================*/
-
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
@@ -15,6 +7,15 @@ html {
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+}
+
+:root {
+	--text: #18110a;
+	--background: #fbf7f4;
+	--primary: #613919;
+	--secondary: #e3b894;
+	--accent: #e0975c;
+	--accenttwo: #F4E0D0;
 }
 
 html,
@@ -305,7 +306,7 @@ h4,
 h5,
 h6 {
 	font-weight: 500;
-	color: #2C2D3F;
+	color: var(--text);
 }
 
 a,
@@ -540,7 +541,7 @@ Preloader Area CSS
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: #2C2D3F;
+	background: #e3b894;
 	-webkit-transform: scaleX(0);
 	transform: scaleX(0);
 	-webkit-transform-origin: 50%;
@@ -572,12 +573,12 @@ Preloader Area CSS
 	text-transform: capitalize;
 	margin-bottom: 24px;
 	position: relative;
-	color: #2C2D3F;
+	color: #18110a;
 }
 
 .section-title p {
 	font-size: 15px;
-	color: #888;
+	color: #676c73;
 	margin-top: 15px;
 }
 
@@ -652,7 +653,7 @@ Preloader Area CSS
 }
 
 .breadcrumbs ul li a:hover {
-	color: #2C2D3F;
+	color: #e3b894;
 }
 
 .breadcrumbs ul li.active a {
