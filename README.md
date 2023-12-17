@@ -1,2 +1,2 @@
-# al-saffah
- Explore the Al Saffah Hajj and Umrah Trust GitHub repository, your go-to source for innovative, responsive, and feature-rich web solutions tailored for pilgrimage services. Dive into a meticulously crafted codebase designed to enhance user experience, featuring dynamic content, seamless navigation, and visually appealing interfaces
+# al-safaa
+ Al Safaa Hajj and Umra Trust is committed to providing an unparalleled pilgrimage experience. Our mission is to facilitate journeys to the holy cities of Makkah and Madinah with utmost care and devotion. This repository plays a crucial role in developing and maintaining the digital solutions that enhance our services.
