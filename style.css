@@ -1548,16 +1548,16 @@ body {
 }
 
 .service-details-inner-left {
-	background-image: url("img/signup-bg.jpg");
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
+
 	width: 100%;
 	height: 100%;
 }
 
 .service-details-inner-left img {
-	display: none;
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
 }
 
 .service-details-inner {
@@ -4752,7 +4752,7 @@ body {
 
 .quran-quote>* {
 	font-weight: 600;
-	font-size: 2rem;
+	font-size: 2em;
 	line-height: 1.5;
 	font-style: italic;
 }
@@ -5006,24 +5006,24 @@ body {
 
 .pricing-block:nth-child(3) .icon-box i,
 .pricing-block:nth-child(3) .inner-box {
-	border-color: #ffc20b;
+	border-color: var(--secondary);
 }
 
 .pricing-block:nth-child(3) .btn-box a,
 .pricing-block:nth-child(3) .icon-box {
-	background-color: #ffc20b;
+	background-color: var(--secondary);
 }
 
 .pricing-block:nth-child(3) .icon-box i,
 .pricing-block:nth-child(3) .price {
-	color: #ffc20b;
+	color: var(--secondary);
 }
 
 .pricing-block:nth-child(3) .inner-box:hover .btn-box a {
-	color: #ffc20b;
+	color: var(--secondary);
 	background: none;
 	border-radius: 0px;
-	border-color: #ffc20b;
+	border-color: var(--secondary);
 }
 
 #price-span {
