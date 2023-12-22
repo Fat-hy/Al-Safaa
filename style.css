@@ -4679,7 +4679,6 @@ body {
 	max-width: 80%;
 	background-color: #f9f9f9;
 	color: #fff;
-	padding: 30px 80px;
 	margin: auto;
 }
 
@@ -5036,6 +5035,19 @@ body {
 
 
 /* End of Pricing */
+/* Package Features List */
+.package-list>ul>li {
+	list-style-type: circle;
+	padding: 0.5em;
+
+}
+
+.package-list {
+	padding: 5em 10em;
+
+}
+
+/* End Package Features */
 /*=========================
 	End New CSS
 ===========================*/
