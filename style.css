@@ -5040,8 +5040,16 @@ body {
 }
 
 .package-list {
-	padding: 5em 10em;
+	padding: 5em;
 
+}
+
+@media (min-width: 768px) {
+
+	.package-list {
+		padding: 5em 10em;
+
+	}
 }
 
 /* End Package Features */
