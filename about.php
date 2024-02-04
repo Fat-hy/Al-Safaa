@@ -5,23 +5,12 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="author" content="Al Safaa Hajj Umra and Trust Team" />
-    <meta
-      name="keywords"
-      content="Hajj, Umra, Pilgrimage, Al Safaa Hajj Umra and Trust, Makkah, Madinah, Spiritual Journey, Islamic Pilgrimage"
-    />
-    <meta
-      name="description"
-      content="Al Safaa Hajj Umra and Trust offers top-notch Hajj and Umra pilgrimage services. Join us on our upcoming journey from 06/06/2024 to 29/06/2024. Book now for a spiritual experience of a lifetime."
-    />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Hajj, Umra, Pilgrimage, Al Safaa Hajj Umra and Trust, Makkah, Madinah, Spiritual Journey, Islamic Pilgrimage">
+    <meta name="description" content="Learn more about Al Safaa Hajj Umra and Trust - dedicated to providing exceptional pilgrimage services. Join our upcoming journey from 06/06/2024 to 29/06/2024. Book now for a spiritual experience of a lifetime.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Title -->
-    <title>
-      Al Safaa Hajj Umra and Trust - Providing Exceptional Pilgrimage Services
-    </title>
+    <title>About Al Safaa Hajj Umra and Trust</title>
 
     <!-- Favicon -->
     <link rel="icon" href="img/favicon.svg" />
