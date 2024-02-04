@@ -84,7 +84,7 @@
               <div class="col-lg-3 col-md-3 col-12">
                 <!-- Start Logo -->
                 <div class="logo">
-                  <a href="index.html"
+                  <a href="https://alsafaa.co.tz/"
                     ><img
                       src="img/nav-logo.svg"
                       id="nav-logo"
@@ -101,25 +101,25 @@
                 <div class="main-menu">
                   <nav class="navigation">
                     <ul class="nav menu">
-                      <li>
-                        <a href="index.html">Home </a>
-                      </li>
                       <li class="active">
-                        <a class="nav-link" href="about.html">About Us</a>
+                        <a href="https://alsafaa.co.tz">Home </a>
                       </li>
                       <li>
-                        <a class="nav-link" href="packages.html">Packages</a>
+                        <a class="nav-link" href="about">About Us</a>
                       </li>
                       <li>
-                        <a class="nav-link" href="services.html"
+                        <a class="nav-link" href="packages">Packages</a>
+                      </li>
+                      <li>
+                        <a class="nav-link" href="services"
                           >Our Services</a
                         >
                       </li>
                       <li>
-                        <a class="nav-link" href="contact.html">Contact Us</a>
+                        <a class="nav-link" href="contact">Contact Us</a>
                       </li>
                       <li>
-                        <a class="nav-link" href="faqs.html">FAQs</a>
+                        <a class="nav-link" href="faqs">FAQs</a>
                       </li>
                     </ul>
                   </nav>
@@ -128,7 +128,7 @@
               </div>
               <div class="col-lg-2 col-12">
                 <div class="get-quote">
-                  <a href="services.html" class="btn">Learn More</a>
+                  <a href="services" class="btn">Learn More</a>
                 </div>
               </div>
             </div>
@@ -139,116 +139,195 @@
     </header>
     <!-- End Header Area -->
 
-    <!-- Breadcrumbs -->
-    <div class="breadcrumbs overlay">
-      <div class="container">
-        <div class="bread-inner">
-          <div class="row">
-            <div class="col-12">
-              <h2>About Us</h2>
-              <ul class="bread-list">
-                <li><a href="index.html">Home</a></li>
-                <li><i class="icofont-simple-right"></i></li>
-                <li class="active">About Us</li>
-              </ul>
+    <!-- Slider Area -->
+    <section class="slider">
+      <div class="hero-slider">
+        <!-- Start Single Slider 1 -->
+        <div
+          class="single-slider"
+          style="background-image: url(&quot;img/slider2.jpg&quot;)"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="text">
+                  <h1 class="text-white">
+                    Your Trusted Partner for Hajj and Umra Services in Tanzania
+                  </h1>
+                  <p class="text-white">
+                    Embark on a spiritual journey of a lifetime with Al Safaa
+                    Hajj Umra and Trust. We offer expert guidance, comfortable
+                    accommodations, and seamless arrangements for your Hajj and
+                    Umra pilgrimage. Trust us for a transformative and peaceful
+                    experience.
+                  </p>
+                  <div class="button">
+                    <a href="packages" class="btn">Explore Packages</a>
+                    <a href="contact" class="btn primary">Contact Us</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+        <!-- End Single Slider 1 -->
+
+        <!-- Start Single Slider 2 -->
+        <div
+          class="single-slider"
+          style="background-image: url(&quot;img/slider.jpg&quot;)"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="text">
+                  <h1 class="text-white">
+                    Discover the Essence of Hajj and Umra with Us
+                  </h1>
+                  <p class="text-white">
+                    Experience the spiritual richness of Hajj and Umra with Al
+                    Saffah Hajj Umra and Trust. Our expert team ensures your
+                    pilgrimage is smooth, serene, and memorable. Join us on a
+                    journey that will enrich your faith and soul.
+                  </p>
+                  <div class="button">
+                    <a href="about" class="btn">About Us</a>
+                    <a href="contact" class="btn primary">Contact Us</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Single Slider 2 -->
+
+        <!-- Start Single Slider 3 -->
+        <div
+          class="single-slider"
+          style="background-image: url(&quot;img/slider3.jpg&quot;)"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="text">
+                  <h1 class="text-white">Your Spiritual Journey Starts Here</h1>
+                  <p class="text-white">
+                    Al Safaa Hajj Umra and Trust is your gateway to a sacred
+                    pilgrimage experience. Our dedicated team ensures your Hajj
+                    and Umra journey is filled with devotion and tranquility.
+                    Let us guide you on this sacred path.
+                  </p>
+                  <div class="button">
+                    <a href="#" class="btn">Learn More</a>
+                    <a href="#" class="btn primary">Contact Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Single Slider 3 -->
       </div>
-    </div>
-    <!-- End Breadcrumbs -->
+    </section>
+    <!--/ End Slider Area -->
 
-    <!-- Start About Us -->
-    <section class="about-us section">
-      <div>
-        <div class="col-lg-12">
-          <div class="section-title">
-            <h2>About Us</h2>
-            <p>
-              Welcome to Al Safaa Hajj and Umra Trust, where our commitment is
-              to provide you with an unparalleled pilgrimage experience. Our
-              mission is to facilitate your journey to the holy cities of Makkah
-              and Madinah with utmost care and devotion.
-            </p>
-          </div>
-        </div>
-
-        <!-- Our Vision -->
-        <div class="mt-5 mb-5 about-box">
-          <div class="row align-items-center mx-0">
-            <div class="col-md-6 div-img p-2">
-              <img
-                src="img/hajj2.jpg"
-                class="img-fluid div-image"
-                alt="Our Vision Image"
-              />
-            </div>
-            <div class="col-md-6 p-6 service-details-inner">
-              <div class="featured-info">
-                <h2 class="pb-3">Our Vision</h2>
-                <p>
-                  Al Safaa envisions a world where every Muslim can fulfill
-                  their spiritual journey with ease and tranquility. We aspire
-                  to be a guiding light, ensuring pilgrims successfully
-                  experience the sacred rituals of Hajj and Umra in an
-                  environment of peace and reverence.
-                </p>
+    <!-- Start Schedule Area -->
+    <section class="schedule">
+      <div class="container">
+        <div class="schedule-inner">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-12">
+              <!-- single-schedule -->
+              <div class="single-schedule first">
+                <div class="inner">
+                  <div class="icon">
+                    <i class="fa fa-star"></i>
+                  </div>
+                  <div class="single-content">
+                    <span>Personalized Journeys</span>
+                    <h4>Embark on Your Unique Pilgrimage</h4>
+                    <p>
+                      At Al Safaa Hajj Umra and Trust, we craft personalized
+                      pilgrimages that resonate with your soul. Your spiritual
+                      journey is our priority. Let us create a bespoke
+                      experience tailored to your beliefs, making your
+                      pilgrimage a truly unforgettable and transformative
+                      moment.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-
-        <!-- Our Mission -->
-        <div class="mt-5 mb-5 about-box">
-          <div class="row align-items-center mx-0">
-            <div class="col-md-6 p-6 service-details-inner">
-              <div class="featured-info">
-                <h2 class="pb-3">Our Mission</h2>
-                <p>
-                  Our mission is to make the sacred journey of Hajj and Umra
-                  accessible to all Muslims. We are dedicated to providing
-                  comprehensive services, from educational seminars and flawless
-                  travel logistics to premium accommodations, ensuring pilgrims
-                  experience the spiritual essence of these divine pilgrimages.
-                </p>
+            <div class="col-lg-4 col-md-4 col-12">
+              <!-- single-schedule -->
+              <div class="single-schedule middle">
+                <div class="inner">
+                  <div class="icon">
+                    <i class="icofont-certificate-alt-1"></i>
+                  </div>
+                  <div class="single-content">
+                    <span>Expert Spiritual Guidance</span>
+                    <h4>Your Trusted Pilgrimage Advisors</h4>
+                    <p>
+                      With Al Safaa Hajj Umra and Trust, you are guided by
+                      experienced advisors dedicated to enhancing your spiritual
+                      journey. Their deep knowledge and unwavering support
+                      ensure every step you take is filled with meaning and
+                      significance, empowering you to connect with your faith on
+                      a profound level.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="col-md-6 div-img p-2">
-              <img
-                src="img/hajj11.jpg"
-                class="img-fluid div-image"
-                alt="Our Mission Image"
-              />
-            </div>
-          </div>
-        </div>
-
-        <!-- Core Values -->
-        <div class="mt-5 mb-5 about-box">
-          <div class="row align-items-center mx-0">
-            <div class="col-md-6 div-img p-2">
-              <img
-                src="img/hajj1.jpg"
-                class="img-fluid div-image"
-                alt="Core Values Image"
-              />
-            </div>
-            <div class="col-md-6 p-6 service-details-inner">
-              <div class="featured-info">
-                <h2 class="pb-3">Our Core Values</h2>
-                <p>
-                  Al Safaa is guided by principles of integrity, compassion,
-                  excellence, and respect. We prioritize the well-being and
-                  satisfaction of our pilgrims, fostering a sense of community
-                  and unity among those embarking on this sacred journey.
-                </p>
+            <div class="col-lg-4 col-md-4 col-12">
+              <!-- single-schedule -->
+              <div class="single-schedule last">
+                <div class="inner">
+                  <div class="icon">
+                    <i class="icofont-live-support"></i>
+                  </div>
+                  <div class="single-content">
+                    <span>Unwavering Support</span>
+                    <h4>Assistance Every Step of the Way</h4>
+                    <p>
+                      Choose us for an unparalleled pilgrimage experience. Our
+                      round-the-clock assistance ensures you are never alone on
+                      this sacred journey. We provide continuous support,
+                      empowering you to focus on your spirituality, knowing that
+                      every need and query is met with dedication and care.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!--/ End About Us -->
+    <!--/End Start schedule Area -->
+
+    <!-- Start Call to action -->
+    <section class="call-action overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-12">
+            <div class="content">
+              <h2>Explore Our Hajj Packages</h2>
+              <p>
+                Experience the journey of a lifetime with Al Safaa Hajj Umra and
+                Trust. Discover our thoughtfully curated packages for an
+                enriching pilgrimage experience.
+              </p>
+              <div class="button">
+                <a href="packages" class="btn">View Packages</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ End Call to action -->
 
     <!-- Start service -->
     <section class="services section">
@@ -256,7 +335,13 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="section-title">
-              <h2>Why Choose Us?</h2>
+              <h2>Our Exceptional Services</h2>
+
+              <p>
+                Experience our premium services tailored for your spiritual
+                journey. From seamless travel arrangements to spiritual
+                guidance, we have you covered.
+              </p>
             </div>
           </div>
         </div>
@@ -264,11 +349,11 @@
           <div class="col-lg-4 col-md-6 col-12">
             <!-- Start Single Service -->
             <div class="single-service">
-              <i class="icofont-shield"></i>
-              <h4>Scholarship</h4>
+              <i class="icofont-book"></i>
+              <h4>Hajj Seminar</h4>
               <p>
-                Our team consist of seasoned and experienced scholars with
-                research and publication in Hajj
+                Experienced scholars will guide you through every aspect,
+                ensuring you are well-informed and spiritually prepared.
               </p>
             </div>
             <!-- End Single Service -->
@@ -276,11 +361,11 @@
           <div class="col-lg-4 col-md-6 col-12">
             <!-- Start Single Service -->
             <div class="single-service">
-              <i class="icofont-handshake-deal"></i>
-              <h4>Transparent Packages</h4>
+              <i class="icofont icofont-travelling"></i>
+              <h4>Flawless Travel Logistics</h4>
               <p>
-                We offer transparent and honest pricing with no hidden fees,
-                providing you peace of mind and confidence in your journey.
+                Enjoy hassle-free travel arrangements from your doorstep to the
+                holy cities of Makkah and Madinah.
               </p>
             </div>
             <!-- End Single Service -->
@@ -288,12 +373,11 @@
           <div class="col-lg-4 col-md-6 col-12">
             <!-- Start Single Service -->
             <div class="single-service">
-              <i class="icofont-people"></i>
-              <h4>Personalized Attention</h4>
+              <i class="icofont icofont-building-alt"></i>
+              <h4>Premium Accomodations</h4>
               <p>
-                We attend to your unique needs and offer personalized services,
-                ensuring your pilgrimage experience is tailored to your
-                requirements.
+                Stay in luxurious hotels conveniently located near the sacred
+                mosques in Makkah and Madinah.
               </p>
             </div>
             <!-- End Single Service -->
@@ -301,11 +385,11 @@
           <div class="col-lg-4 col-md-6 col-12">
             <!-- Start Single Service -->
             <div class="single-service">
-              <i class="icofont-wall-clock"></i>
-              <h4>24/7 Support</h4>
+              <i class="icofont icofont-history"></i>
+              <h4>Historical Site Visits</h4>
               <p>
-                Our dedicated support team is available 24/7, ready to assist
-                you at any time during your pilgrimage.
+                Explore the rich history of Makkah and Madinah with guided tours
+                to significant religious and historical sites.
               </p>
             </div>
             <!-- End Single Service -->
@@ -313,23 +397,24 @@
           <div class="col-lg-4 col-md-6 col-12">
             <!-- Start Single Service -->
             <div class="single-service">
-              <i class="icofont-medical-sign"></i>
-              <h4>Health and Safety</h4>
+              <i class="icofont icofont-food-basket"></i>
+              <h4>Catered Meals</h4>
               <p>
-                We travel with specialized doctors and carry with us all
-                necessary medications.
+                Indulge in delicious and nutritious meals throughout your
+                journey, ensuring your well-being and energy.
               </p>
             </div>
             <!-- End Single Service -->
           </div>
+
           <div class="col-lg-4 col-md-6 col-12">
             <!-- Start Single Service -->
             <div class="single-service">
-              <i class="icofont-brand-saudia-airlines"></i>
-              <h4>Cultural Immersion</h4>
+              <i class="icofont icofont-medical-sign"></i>
+              <h4>Medical Support</h4>
               <p>
-                Immerse yourself in the rich culture of Makkah and Madinah with
-                guided tours to historical sites and local experiences.
+                Your well-being is our priority. Access 24/7 medical assistance
+                and specialized doctors throughout the journey.
               </p>
             </div>
             <!-- End Single Service -->
@@ -338,106 +423,6 @@
       </div>
     </section>
     <!--/ End service -->
-    <section class="section" id="gallery">
-      <div class="container">
-        <div class="section-title">
-          <h2>Our Journey in Images</h2>
-          <p>Explore the moments that define our spiritual journey</p>
-        </div>
-        <div class="container">
-          <div id="carouselExample" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/hajj1.jpg" class="d-block w-100" alt="Hijja 1" />
-              </div>
-              <div class="carousel-item">
-                <img src="img/hajj2.jpg" class="d-block w-100" alt="Hijja 2" />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="img/hujjaj1.jpg"
-                  class="d-block w-100"
-                  alt="Hujjaj 1"
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="img/hujjaj2.jpg"
-                  class="d-block w-100"
-                  alt="Hujjaj 2"
-                />
-              </div>
-              <div class="carousel-item">
-                <img src="img/hajj3.jpg" class="d-block w-100" alt="Hijja 3" />
-              </div>
-              <div class="carousel-item">
-                <img src="img/hajj4.jpg" class="d-block w-100" alt="Hijja 4" />
-              </div>
-              <div class="carousel-item">
-                <img src="img/hajj5.jpg" class="d-block w-100" alt="Hijja 5" />
-              </div>
-              <div class="carousel-item">
-                <img src="img/hajj6.jpg" class="d-block w-100" alt="Hijja 6" />
-              </div>
-              <div class="carousel-item">
-                <img src="img/hajj7.jpg" class="d-block w-100" alt="Hijja 7" />
-              </div>
-              <div class="carousel-item">
-                <img src="img/hajj8.jpg" class="d-block w-100" alt="Hijja 8" />
-              </div>
-              <div class="carousel-item">
-                <img src="img/hajj9.jpg" class="d-block w-100" alt="Hijja 9" />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="img/hajj10.jpg"
-                  class="d-block w-100"
-                  alt="Hijja 10"
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="img/hajj11.jpg"
-                  class="d-block w-100"
-                  alt="Hijja 11"
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="img/hajj12.jpg"
-                  class="d-block w-100"
-                  alt="Hijja 12"
-                />
-              </div>
-            </div>
-            <a
-              class="carousel-control-prev"
-              href="#carouselExample"
-              role="button"
-              data-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a
-              class="carousel-control-next"
-              href="#carouselExample"
-              role="button"
-              data-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- Footer Area -->
     <footer id="footer" class="footer">
@@ -488,19 +473,19 @@
                 <!-- Explore List -->
                 <ul class="justify-content-around">
                   <li>
-                    <a href="packages.html#hajj-packages"
+                    <a href="packages#hajj-packages"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i>Hajj
                       Package</a
                     >
                   </li>
                   <li>
-                    <a href="packages.html#umra-package"
+                    <a href="packages#umra-package"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i>Umra
                       Package</a
                     >
                   </li>
                   <li>
-                    <a href="packages.html#proxy-packages"
+                    <a href="packages#proxy-packages"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i>Hajj
                       by Proxy</a
                     >
@@ -517,19 +502,19 @@
                 <!-- Links Links List -->
                 <ul class="justify-content-around">
                   <li>
-                    <a href="index.html"
+                    <a href="https://alsafaa.co.tz"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i
                       >Home</a
                     >
                   </li>
                   <li>
-                    <a href="services.html"
+                    <a href="services"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i
                       >Services</a
                     >
                   </li>
                   <li>
-                    <a href="about.html#gallery"
+                    <a href="about#gallery"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i
                       >Gallery</a
                     >
@@ -545,13 +530,13 @@
                 <!-- Support Links List -->
                 <ul class="justify-content-around">
                   <li>
-                    <a href="faqs.html"
+                    <a href="faqs"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i
                       >FAQs</a
                     >
                   </li>
                   <li>
-                    <a href="contact.html"
+                    <a href="contact"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i
                       >Contact Us</a
                     >

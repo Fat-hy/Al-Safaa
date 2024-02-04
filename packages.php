@@ -84,7 +84,7 @@
               <div class="col-lg-3 col-md-3 col-12">
                 <!-- Start Logo -->
                 <div class="logo">
-                  <a href="index.html"
+                  <a href="https://alsafaa.co.tz"
                     ><img
                       src="img/nav-logo.svg"
                       id="nav-logo"
@@ -102,24 +102,24 @@
                   <nav class="navigation">
                     <ul class="nav menu">
                       <li>
-                        <a href="index.html">Home </a>
+                        <a href="https://alsafaa.co.tz">Home </a>
                       </li>
                       <li>
-                        <a class="nav-link" href="about.html">About Us</a>
+                        <a class="nav-link" href="about">About Us</a>
                       </li>
                       <li class="active">
-                        <a class="nav-link" href="packages.html">Packages</a>
+                        <a class="nav-link" href="packages">Packages</a>
                       </li>
                       <li>
-                        <a class="nav-link" href="services.html"
+                        <a class="nav-link" href="services"
                           >Our Services</a
                         >
                       </li>
                       <li>
-                        <a class="nav-link" href="contact.html">Contact Us</a>
+                        <a class="nav-link" href="contact">Contact Us</a>
                       </li>
                       <li>
-                        <a class="nav-link" href="faqs.html">FAQs</a>
+                        <a class="nav-link" href="faqs">FAQs</a>
                       </li>
                     </ul>
                   </nav>
@@ -128,7 +128,7 @@
               </div>
               <div class="col-lg-2 col-12">
                 <div class="get-quote">
-                  <a href="services.html" class="btn">Learn More</a>
+                  <a href="services" class="btn">Learn More</a>
                 </div>
               </div>
             </div>
@@ -147,7 +147,7 @@
             <div class="col-12">
               <h2>Packages</h2>
               <ul class="bread-list">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="https://alsafaa.co.tz">Home</a></li>
                 <li><i class="icofont-simple-right"></i></li>
                 <li class="active">Packages</li>
               </ul>
@@ -769,19 +769,19 @@
                 <!-- Explore List -->
                 <ul class="justify-content-around">
                   <li>
-                    <a href="packages.html#hajj-packages"
+                    <a href="packages#hajj-packages"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i>Hajj
                       Package</a
                     >
                   </li>
                   <li>
-                    <a href="packages.html#umra-package"
+                    <a href="packages#umra-package"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i>Umra
                       Package</a
                     >
                   </li>
                   <li>
-                    <a href="packages.html#proxy-packages"
+                    <a href="packages#proxy-packages"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i>Hajj
                       by Proxy</a
                     >
@@ -798,19 +798,19 @@
                 <!-- Links Links List -->
                 <ul class="justify-content-around">
                   <li>
-                    <a href="index.html"
+                    <a href="https://alsafaa.co.tz"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i
                       >Home</a
                     >
                   </li>
                   <li>
-                    <a href="services.html"
+                    <a href="services"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i
                       >Services</a
                     >
                   </li>
                   <li>
-                    <a href="about.html#gallery"
+                    <a href="about#gallery"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i
                       >Gallery</a
                     >
@@ -826,13 +826,13 @@
                 <!-- Support Links List -->
                 <ul class="justify-content-around">
                   <li>
-                    <a href="faqs.html"
+                    <a href="faqs"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i
                       >FAQs</a
                     >
                   </li>
                   <li>
-                    <a href="contact.html"
+                    <a href="contact"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i
                       >Contact Us</a
                     >

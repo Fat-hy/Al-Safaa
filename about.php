@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html class="no-js" lang="en">
   <head>
     <!-- Meta Tags -->
@@ -84,7 +84,7 @@
               <div class="col-lg-3 col-md-3 col-12">
                 <!-- Start Logo -->
                 <div class="logo">
-                  <a href="index.html"
+                  <a href="https://alsafaa.co.tz"
                     ><img
                       src="img/nav-logo.svg"
                       id="nav-logo"
@@ -102,24 +102,24 @@
                   <nav class="navigation">
                     <ul class="nav menu">
                       <li>
-                        <a href="index.html">Home </a>
+                        <a href="https://alsafaa.co.tz">Home </a>
+                      </li>
+                      <li class="active">
+                        <a class="nav-link" href="about">About Us</a>
                       </li>
                       <li>
-                        <a class="nav-link" href="about.html">About Us</a>
+                        <a class="nav-link" href="packages">Packages</a>
                       </li>
                       <li>
-                        <a class="nav-link" href="packages.html">Packages</a>
-                      </li>
-                      <li>
-                        <a class="nav-link" href="services.html"
+                        <a class="nav-link" href="services"
                           >Our Services</a
                         >
                       </li>
                       <li>
-                        <a class="nav-link" href="contact.html">Contact Us</a>
+                        <a class="nav-link" href="contact">Contact Us</a>
                       </li>
-                      <li class="active">
-                        <a class="nav-link" href="faqs.html">FAQs</a>
+                      <li>
+                        <a class="nav-link" href="faqs">FAQs</a>
                       </li>
                     </ul>
                   </nav>
@@ -128,7 +128,7 @@
               </div>
               <div class="col-lg-2 col-12">
                 <div class="get-quote">
-                  <a href="services.html" class="btn">Learn More</a>
+                  <a href="services" class="btn">Learn More</a>
                 </div>
               </div>
             </div>
@@ -145,11 +145,11 @@
         <div class="bread-inner">
           <div class="row">
             <div class="col-12">
-              <h2>Frequently Asked Questions</h2>
+              <h2>About Us</h2>
               <ul class="bread-list">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="https://alsafaa.co.tz">Home</a></li>
                 <li><i class="icofont-simple-right"></i></li>
-                <li class="active">FAQs</li>
+                <li class="active">About Us</li>
               </ul>
             </div>
           </div>
@@ -158,220 +158,286 @@
     </div>
     <!-- End Breadcrumbs -->
 
-    <!-- Start FAQs -->
-    <section class="mt-5 mb-5">
-      <div class="section-title mt-5">
-          <h2>Frequently Asked Questions</h2>
-          <p>
-          Get answers to commonly asked questions about Al Safaa Hajj and Umra Trust
-          </p>
+    <!-- Start About Us -->
+    <section class="about-us section">
+      <div>
+        <div class="col-lg-12">
+          <div class="section-title">
+            <h2>About Us</h2>
+            <p>
+              Welcome to Al Safaa Hajj and Umra Trust, where our commitment is
+              to provide you with an unparalleled pilgrimage experience. Our
+              mission is to facilitate your journey to the holy cities of Makkah
+              and Madinah with utmost care and devotion.
+            </p>
+          </div>
         </div>
-      <div class="dropdown-container">
-        <header class="clearfix">
-          <h1>What are the office locations of Al Safaa Hajj and Trust?</h1>
-          <figure class="expand"><i class="fa fa-close"></i></figure>
-        </header>
-        <article>
-          <div class="article-inner">
-            <p>
-              Al Safaa Hajj and Trust has offices in Dar es Salaam and Zanzibar, Tanzania. The Dar es Salaam office is located at Plot No. 877, House No 09, Fire/ Mazengo Street. The Zanzibar office is situated at 1/3 Shatry Building First Floor, Mbuyuni Mjini.
-            </p>
+
+        <!-- Our Vision -->
+        <div class="mt-5 mb-5 about-box">
+          <div class="row align-items-center mx-0">
+            <div class="col-md-6 div-img p-2">
+              <img
+                src="img/hajj2.jpg"
+                class="img-fluid div-image"
+                alt="Our Vision Image"
+              />
+            </div>
+            <div class="col-md-6 p-6 service-details-inner">
+              <div class="featured-info">
+                <h2 class="pb-3">Our Vision</h2>
+                <p>
+                  Al Safaa envisions a world where every Muslim can fulfill
+                  their spiritual journey with ease and tranquility. We aspire
+                  to be a guiding light, ensuring pilgrims successfully
+                  experience the sacred rituals of Hajj and Umra in an
+                  environment of peace and reverence.
+                </p>
+              </div>
+            </div>
           </div>
-        </article>
-      </div>
+        </div>
 
-      <div class="dropdown-container">
-        <header class="clearfix">
-          <h1>What services are included in the Hajj trip package?</h1>
-          <figure class="expand"><i class="fa fa-close"></i></figure>
-        </header>
-        <article>
-          <div class="article-inner">
-            <ul class="dotless">
-              <li>Air travel to and from Makkah and Madinah.</li>
-              <li>Domestic transportation in Makkah and Madinah.</li>
-              <li>Hotels in Makkah and Madinah close to Haram mosques.</li>
-              <li>Food provided throughout the trip.</li>
-              <li>Tents in Mina and Arafat.</li>
-              <li>Visits to historical sites in Makkah and Medina.</li>
-              <li>Medical treatment provided by experienced doctors.</li>
-              <li>Ihram clothing for men and women.</li>
-              <li>Travel bags.</li>
-              <li>Udhi-hiya slaughter.</li>
-              <li>Gift of 5 liters of Zam Zam water.</li>
-            </ul>
+        <!-- Our Mission -->
+        <div class="mt-5 mb-5 about-box">
+          <div class="row align-items-center mx-0">
+            <div class="col-md-6 p-6 service-details-inner">
+              <div class="featured-info">
+                <h2 class="pb-3">Our Mission</h2>
+                <p>
+                  Our mission is to make the sacred journey of Hajj and Umra
+                  accessible to all Muslims. We are dedicated to providing
+                  comprehensive services, from educational seminars and flawless
+                  travel logistics to premium accommodations, ensuring pilgrims
+                  experience the spiritual essence of these divine pilgrimages.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 div-img p-2">
+              <img
+                src="img/hajj11.jpg"
+                class="img-fluid div-image"
+                alt="Our Mission Image"
+              />
+            </div>
           </div>
-        </article>
-      </div>
+        </div>
 
-      <div class="dropdown-container">
-        <header class="clearfix">
-          <h1>When is the next Hajj trip taking place?</h1>
-          <figure class="expand"><i class="fa fa-close"></i></figure>
-        </header>
-        <article>
-          <div class="article-inner">
-            <p>
-              The next Hajj trip for 1445 A.H./2024 will begin on June 6, 2024 (departure from Dar es Salaam/Zanzibar to Jeddah) and end on June 29, 2024 (return from Madinah to Dar es Salaam/Zanzibar).
-            </p>
+        <!-- Core Values -->
+        <div class="mt-5 mb-5 about-box">
+          <div class="row align-items-center mx-0">
+            <div class="col-md-6 div-img p-2">
+              <img
+                src="img/hajj1.jpg"
+                class="img-fluid div-image"
+                alt="Core Values Image"
+              />
+            </div>
+            <div class="col-md-6 p-6 service-details-inner">
+              <div class="featured-info">
+                <h2 class="pb-3">Our Core Values</h2>
+                <p>
+                  Al Safaa is guided by principles of integrity, compassion,
+                  excellence, and respect. We prioritize the well-being and
+                  satisfaction of our pilgrims, fostering a sense of community
+                  and unity among those embarking on this sacred journey.
+                </p>
+              </div>
+            </div>
           </div>
-        </article>
-      </div>
-
-      <div class="dropdown-container">
-        <header class="clearfix">
-          <h1>What are the flight details for the Hajj trip?</h1>
-          <figure class="expand"><i class="fa fa-close"></i></figure>
-        </header>
-        <article>
-          <div class="article-inner">
-            <p>
-              The flight details for the Hajj trip are as follows:
-              <ul>
-                <li>Departure: Dar es Salaam/Zanzibar to Jeddah on June 6, 2024.</li>
-                <li>Return: Madinah to Dar es Salaam/Zanzibar on June 29, 2024.</li>
-              </ul>
-            </p>
-          </div>
-        </article>
-      </div>
-
-      <div class="dropdown-container">
-        <header class="clearfix">
-          <h1>How can I contact the leadership team of Al Safaa Hajj and Trust?</h1>
-          <figure class="expand"><i class="fa fa-close"></i></figure>
-        </header>
-        <article>
-          <div class="article-inner">
-            <p>
-              You can find the contact details of the leadership team of Al Safaa Hajj and Trust in the <a href="contact.html" class="link-underline-dark">Contact Us <i class="icofont-link"></i></a> page 
-            </p>
-          </div>
-        </article>
-      </div>
-
-      <div class="dropdown-container">
-        <header class="clearfix">
-          <h1>What are the accepted payment methods for the Hajj trip?</h1>
-          <figure class="expand"><i class="fa fa-close"></i></figure>
-        </header>
-        <article>
-          <div class="article-inner">
-            <p>
-              Al Safaa Hajj and Trust accepts payments through various methods, including bank transfers and online payments, in both USD and Tanzanian Shillings (TZS).
-            </p>
-          </div>
-        </article>
-      </div>
-
-      <div class="dropdown-container">
-        <header class="clearfix">
-          <h1>What medical facilities are available during the Hajj trip?</h1>
-          <figure class="expand"><i class="fa fa-close"></i></figure>
-        </header>
-        <article>
-          <div class="article-inner">
-            <p>
-             We travel with specialized doctors and carry with us all necessary medications.
-            </p>
-          </div>
-        </article>
-      </div>
-
-
-      <div class="dropdown-container">
-        <header class="clearfix">
-          <h1>Are there any sightseeing opportunities during the Hajj trip?</h1>
-          <figure class="expand"><i class="fa fa-close"></i></figure>
-        </header>
-        <article>
-          <div class="article-inner">
-            <p>
-              Yes, the Hajj trip includes visits to historical sites in Makkah and Medina, allowing pilgrims to explore and learn about the rich cultural and religious heritage of the region.
-            </p>
-          </div>
-        </article>
-      </div>
-
-
-      <div class="dropdown-container">
-        <header class="clearfix">
-          <h1>What items are provided in the travel package?</h1>
-          <figure class="expand"><i class="fa fa-close"></i></figure>
-        </header>
-        <article>
-          <div class="article-inner">
-            <ul class="dotless">
-              <li>Ihram clothing for men and women.</li>
-              <li>Travel bags.</li>
-              <li>Slaughter of Udhi-hiya.</li>
-              <li>Zam Zam water gift (5 liters).</li>
-            </ul>
-          </div>
-        </article>
-      </div>
-
-
-      <div class="dropdown-container">
-        <header class="clearfix">
-          <h1>When are Umra services provided?</h1>
-          <figure class="expand"><i class="fa fa-close"></i></figure>
-        </header>
-        <article>
-          <div class="article-inner">
-            <p>Umra services are offered during the months of Rabiul Awwal and Ramadan respectively </p>
-          </div>
-        </article>
-      </div>
-
-
-      <div class="dropdown-container">
-        <header class="clearfix">
-          <h1>Can I book the Hajj trip for someone else?</h1>
-          <figure class="expand"><i class="fa fa-close"></i></figure>
-        </header>
-        <article>
-          <div class="article-inner">
-            <p>
-              Yes, you can book the Hajj trip on behalf of someone else. Ensure to provide their accurate details during the booking process.
-            </p>
-          </div>
-        </article>
-      </div>
-
-
-      <div class="dropdown-container">
-        <header class="clearfix">
-          <h1>What languages are spoken by the Al Safaa Hajj and Trust staff?</h1>
-          <figure class="expand"><i class="fa fa-close"></i></figure>
-        </header>
-        <article>
-          <div class="article-inner">
-            <p>
-              The staff members at Al Safaa Hajj and Trust are fluent in multiple languages, including Arabic, English, Swahili, Comorian and Urdu to assist pilgrims from various backgrounds.
-            </p>
-          </div>
-        </article>
-      </div>
-
-
-      <div class="dropdown-container mb-5">
-        <header class="clearfix">
-          <h1>Can I get a refund if I cancel my Hajj trip booking?</h1>
-          <figure class="expand"><i class="fa fa-close"></i></figure>
-        </header>
-        <article>
-          <div class="article-inner">
-            <p>
-              It is allowed to cancel your booking at anytime however the terms and conditions provided are applied.
-            </p>
-          </div>
-        </article>
+        </div>
       </div>
     </section>
-    <!-- /Start FAQs -->
+    <!--/ End About Us -->
 
-   
+    <!-- Start service -->
+    <section class="services section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-title">
+              <h2>Why Choose Us?</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-12">
+            <!-- Start Single Service -->
+            <div class="single-service">
+              <i class="icofont-shield"></i>
+              <h4>Scholarship</h4>
+              <p>
+                Our team consist of seasoned and experienced scholars with
+                research and publication in Hajj
+              </p>
+            </div>
+            <!-- End Single Service -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <!-- Start Single Service -->
+            <div class="single-service">
+              <i class="icofont-handshake-deal"></i>
+              <h4>Transparent Packages</h4>
+              <p>
+                We offer transparent and honest pricing with no hidden fees,
+                providing you peace of mind and confidence in your journey.
+              </p>
+            </div>
+            <!-- End Single Service -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <!-- Start Single Service -->
+            <div class="single-service">
+              <i class="icofont-people"></i>
+              <h4>Personalized Attention</h4>
+              <p>
+                We attend to your unique needs and offer personalized services,
+                ensuring your pilgrimage experience is tailored to your
+                requirements.
+              </p>
+            </div>
+            <!-- End Single Service -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <!-- Start Single Service -->
+            <div class="single-service">
+              <i class="icofont-wall-clock"></i>
+              <h4>24/7 Support</h4>
+              <p>
+                Our dedicated support team is available 24/7, ready to assist
+                you at any time during your pilgrimage.
+              </p>
+            </div>
+            <!-- End Single Service -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <!-- Start Single Service -->
+            <div class="single-service">
+              <i class="icofont-medical-sign"></i>
+              <h4>Health and Safety</h4>
+              <p>
+                We travel with specialized doctors and carry with us all
+                necessary medications.
+              </p>
+            </div>
+            <!-- End Single Service -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <!-- Start Single Service -->
+            <div class="single-service">
+              <i class="icofont-brand-saudia-airlines"></i>
+              <h4>Cultural Immersion</h4>
+              <p>
+                Immerse yourself in the rich culture of Makkah and Madinah with
+                guided tours to historical sites and local experiences.
+              </p>
+            </div>
+            <!-- End Single Service -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ End service -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="section-title">
+          <h2>Our Journey in Images</h2>
+          <p>Explore the moments that define our spiritual journey</p>
+        </div>
+        <div class="container">
+          <div id="carouselExample" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/hajj1.jpg" class="d-block w-100" alt="Hijja 1" />
+              </div>
+              <div class="carousel-item">
+                <img src="img/hajj2.jpg" class="d-block w-100" alt="Hijja 2" />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="img/hujjaj1.jpg"
+                  class="d-block w-100"
+                  alt="Hujjaj 1"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="img/hujjaj2.jpg"
+                  class="d-block w-100"
+                  alt="Hujjaj 2"
+                />
+              </div>
+              <div class="carousel-item">
+                <img src="img/hajj3.jpg" class="d-block w-100" alt="Hijja 3" />
+              </div>
+              <div class="carousel-item">
+                <img src="img/hajj4.jpg" class="d-block w-100" alt="Hijja 4" />
+              </div>
+              <div class="carousel-item">
+                <img src="img/hajj5.jpg" class="d-block w-100" alt="Hijja 5" />
+              </div>
+              <div class="carousel-item">
+                <img src="img/hajj6.jpg" class="d-block w-100" alt="Hijja 6" />
+              </div>
+              <div class="carousel-item">
+                <img src="img/hajj7.jpg" class="d-block w-100" alt="Hijja 7" />
+              </div>
+              <div class="carousel-item">
+                <img src="img/hajj8.jpg" class="d-block w-100" alt="Hijja 8" />
+              </div>
+              <div class="carousel-item">
+                <img src="img/hajj9.jpg" class="d-block w-100" alt="Hijja 9" />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="img/hajj10.jpg"
+                  class="d-block w-100"
+                  alt="Hijja 10"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="img/hajj11.jpg"
+                  class="d-block w-100"
+                  alt="Hijja 11"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="img/hajj12.jpg"
+                  class="d-block w-100"
+                  alt="Hijja 12"
+                />
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExample"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExample"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Footer Area -->
     <footer id="footer" class="footer">
@@ -422,19 +488,19 @@
                 <!-- Explore List -->
                 <ul class="justify-content-around">
                   <li>
-                    <a href="packages.html#hajj-packages"
+                    <a href="packages#hajj-packages"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i>Hajj
                       Package</a
                     >
                   </li>
                   <li>
-                    <a href="packages.html#umra-package"
+                    <a href="packages#umra-package"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i>Umra
                       Package</a
                     >
                   </li>
                   <li>
-                    <a href="packages.html#proxy-packages"
+                    <a href="packages#proxy-packages"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i>Hajj
                       by Proxy</a
                     >
@@ -451,19 +517,19 @@
                 <!-- Links Links List -->
                 <ul class="justify-content-around">
                   <li>
-                    <a href="index.html"
+                    <a href="https://alsafaa.co.tz"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i
                       >Home</a
                     >
                   </li>
                   <li>
-                    <a href="services.html"
+                    <a href="services"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i
                       >Services</a
                     >
                   </li>
                   <li>
-                    <a href="about.html#gallery"
+                    <a href="about#gallery"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i
                       >Gallery</a
                     >
@@ -479,13 +545,13 @@
                 <!-- Support Links List -->
                 <ul class="justify-content-around">
                   <li>
-                    <a href="faqs.html"
+                    <a href="faqs"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i
                       >FAQs</a
                     >
                   </li>
                   <li>
-                    <a href="contact.html"
+                    <a href="contact"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i
                       >Contact Us</a
                     >
@@ -572,7 +638,5 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- Main JS -->
     <script src="js/main.js"></script>
-    <!-- Faqs -->
-    <script src="js/faqs.js"></script>
   </body>
 </html>

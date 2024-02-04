@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html class="no-js" lang="en">
   <head>
     <!-- Meta Tags -->
@@ -84,7 +84,7 @@
               <div class="col-lg-3 col-md-3 col-12">
                 <!-- Start Logo -->
                 <div class="logo">
-                  <a href="index.html"
+                  <a href="https://alsafaa.co.tz/"
                     ><img
                       src="img/nav-logo.svg"
                       id="nav-logo"
@@ -102,24 +102,24 @@
                   <nav class="navigation">
                     <ul class="nav menu">
                       <li>
-                        <a href="index.html">Home </a>
+                        <a href="https://alsafaa.co.tz/">Home </a>
                       </li>
                       <li>
-                        <a class="nav-link" href="about.html">About Us</a>
+                        <a class="nav-link" href="about">About Us</a>
                       </li>
                       <li>
-                        <a class="nav-link" href="packages.html">Packages</a>
+                        <a class="nav-link" href="packages">Packages</a>
                       </li>
-                      <li>
-                        <a class="nav-link" href="services.html"
+                      <li class="active">
+                        <a class="nav-link" href="services"
                           >Our Services</a
                         >
                       </li>
-                      <li class="active">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
+                      <li>
+                        <a class="nav-link" href="contact">Contact Us</a>
                       </li>
                       <li>
-                        <a class="nav-link" href="faqs.html">FAQs</a>
+                        <a class="nav-link" href="faqs">FAQs</a>
                       </li>
                     </ul>
                   </nav>
@@ -128,7 +128,7 @@
               </div>
               <div class="col-lg-2 col-12">
                 <div class="get-quote">
-                  <a href="services.html" class="btn">Learn More</a>
+                  <a href="services" class="btn">Learn More</a>
                 </div>
               </div>
             </div>
@@ -138,17 +138,18 @@
       <!--/ End Header Inner -->
     </header>
     <!-- End Header Area -->
-         <!-- Breadcrumbs -->
+
+    <!-- Breadcrumbs -->
     <div class="breadcrumbs overlay">
       <div class="container">
         <div class="bread-inner">
           <div class="row">
             <div class="col-12">
-              <h2>Contact Us</h2>
+              <h2>Our Services</h2>
               <ul class="bread-list">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="https://alsafaa.co.tz/">Home</a></li>
                 <li><i class="icofont-simple-right"></i></li>
-                <li class="active">Contact Us</li>
+                <li class="active">Our Services</li>
               </ul>
             </div>
           </div>
@@ -157,105 +158,159 @@
     </div>
     <!-- End Breadcrumbs -->
 
-    <!-- Start Contact Us -->
-    <section class="contact-us section">
-      
-        <div class="p-1 p-md-6 p-lg-6">
-          <div class="flex-column">
-            <div class="col-12">
-              <div class="contact-us-form">
-                <h2>Leadership</h2>
-                <p>
-                  If you have any questions please feel free to contact the
-                  leadership team of the Al Safaa Hajj and Umra Trust.
-                </p>
-                <div class="contact-info">
-                  <div class="row">
-                    <div class="col">
-                      <div class="men">
-                        <h3 class="pt-3">Men</h3>
-                        <ul>
-                      <li>Alhajj Othman Khamis Chekechea: +255716669520</li>
-                      <li>Alhajj Mohammed Mzee Mbaba: +255777847961</li>
-                      <li>Alhajj Abbas Ramadhan Abbas: +255713298114</li>
-                      <li>Alhajj Bashir Juma Nyagasa: +255784274206</li>
-                      <li>Alhajj Suleiman Mohamed Bahri: +255777416477</li>
-                      <li>Alhajj Hamisi Abdallah Babu: +255763820050</li>
-                      <li>Alhajj Sameer Maqbul Ibrahim: +255684800900</li>
-                      <li>Alhajj Ali Said Mwinyihindi: +255687882231</li>
-                      <li>Alhajj Mehboob Al Haddad: +255717030366</li>
-                      <li>Alhajj Hamid Haji Machano: +255777428773</li>
-                      <li>Alhajj Jamal Mwarab Khalfan: +255693668066</li>
-                      <li>Alhajj Hudhaifa Ahmed Abdulla: +255777415915</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="women">
-                        <h3 class="pt-3">Women</h3>
-                        <ul>
-                         <li>Hajjat Jokha Salim Al Lamki: +255715273306</li>
-                      <li>Hajjat Saada Mohammed Nassor: +255777723310</li>
-                      <li>Hajjat Mariam Abdallah Mwinyi: +255715348009</li>
-                      <li>Hajjat Fatma Ali Khatibu: +255777418291</li>
-                      <li>Hajjat Khadija Omari Kayanda: +255718322513</li>
-                      <li>Hajjat Sumaiyya Masoud Ibrahim: +255777422272</li>
-                      <li>Hajjat Bimkubwa Juma Kheid: +255777428340</li>
-                      <li>Hajjat Talaa Salum Barkey: +447861276799</li>
-                      <li>Hajjat Shufaa Hussein Abdallah: +255777420341</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="contact-us-form">
-                <h2>Our Offices</h2>
-                <p>
-                  For any inquiries or for face-to-face consultation, please
-                  visit our offices located in Dar es Salaam and Zanzibar.
-                </p>
-                <!-- Single Info -->
-                <div class="single-info">
-                  <i class="icofont icofont-google-map"></i>
-                  <div class="content">
-                    <h3>Dar Office</h3>
-                    <p>Plot No. 877, House No 09, Fire/Mazengo Street</p>
-                  </div>
-                </div>
-                <!-- / Single Info -->
-                <!-- Single Info -->
-                <div class="single-info">
-                  <i class="icofont icofont-google-map"></i>
-                  <div class="content">
-                    <h3>Zanzibar Office</h3>
-                    <p>1/3 Shatry Building First Floor, Mbuyuni Mjini</p>
-                  </div>
-                </div>
-                <!-- / Single Info -->
-                <!-- Single Info -->
-                <div class="single-info">
-                  <i class="icofont icofont-wall-clock"></i>
-                  <div class="content">
-                    <h3>Office Hours</h3>
-                    <p>Monday - Saturday 9:00am to 5:00pm</p>
-                  </div>
-                </div>
-                <!-- / Single Info -->
-              </div>
+    <!-- Start service -->
+    <section class="services section">
+      <div class="col-lg-12">
+        <div class="section-title">
+          <h2>Our Services</h2>
+
+          <p>
+            At Al Safaa Hajj and Umra Trust we provide the following services
+          </p>
+        </div>
+      </div>
+      <!-- Service 1: Hajj Seminar -->
+      <div class="mt-5 mb-5 service-box">
+        <div class="row align-items-center mx-0">
+          <div class="col-md-6 div-img">
+            <img
+              src="img/hajj1.jpg"
+              class="img-fluid div-image"
+              alt="Hajj Seminar Image"
+            />
+          </div>
+          <div class="col-md-6 p-6">
+            <div class="featured-info service-details-inner">
+              <h2>Hajj Seminar</h2>
+              <p>
+                Our experienced scholars will guide you through every aspect of
+                Hajj, ensuring you are well-informed and spiritually prepared
+                for this sacred journey.
+              </p>
             </div>
           </div>
         </div>
-      
+      </div>
+
+      <!-- Service 2: Flawless Travel Logistics -->
+      <div class="mt-5 mb-5 service-box">
+        <div class="row align-items-center mx-0">
+          <div class="col-md-6 p-6">
+            <div class="featured-info service-details-inner">
+              <h2>Flawless Travel Logistics</h2>
+              <p>
+                Enjoy seamless and hassle-free travel arrangements from your
+                doorstep to the holy cities of Makkah and Madinah, ensuring your
+                journey is comfortable and stress-free.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 div-img">
+            <img
+              src="img/hajj2.jpg"
+              class="img-fluid div-image"
+              alt="Flawless Travel Logistics Image"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 3: Premium Accommodations -->
+      <div class="mt-5 mb-5 service-box">
+        <div class="row align-items-center mx-0">
+          <div class="col-md-6 div-img">
+            <img
+              src="img/hajj3.jpg"
+              class="img-fluid div-image"
+              alt="Premium Accommodations Image"
+            />
+          </div>
+          <div class="col-md-6 p-6">
+            <div class="featured-info service-details-inner">
+              <h2>Premium Accommodations</h2>
+              <p>
+                Stay in luxurious hotels conveniently located near the sacred
+                mosques in Makkah and Madinah, ensuring your stay is comfortable
+                and memorable.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 4: Historical Site Visits -->
+      <div class="mt-5 mb-5 service-box">
+        <div class="row align-items-center mx-0">
+          <div class="col-md-6 p-6">
+            <div class="featured-info service-details-inner">
+              <h2>Historical Site Visits</h2>
+              <p>
+                Explore the rich history of Makkah and Madinah with guided tours
+                to significant religious and historical sites, enhancing your
+                spiritual and cultural experience.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 div-img">
+            <img
+              src="img/hajj4.jpg"
+              class="img-fluid div-image"
+              alt="Historical Site Visits Image"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 5: Catered Meals -->
+      <div class="mt-5 mb-5 service-box">
+        <div class="row align-items-center mx-0">
+          <div class="col-md-6 div-img">
+            <img
+              src="img/hajj5.jpg"
+              class="img-fluid div-image"
+              alt="Catered Meals Image"
+            />
+          </div>
+          <div class="col-md-6 p-6">
+            <div class="featured-info service-details-inner">
+              <h2>Catered Meals</h2>
+              <p>
+                Indulge in delicious and nutritious meals throughout your
+                journey, ensuring your well-being and energy so you can fully
+                focus on your spiritual experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 6: Medical Support -->
+      <div class="mt-5 mb-5 service-box">
+        <div class="row align-items-center mx-0">
+          <div class="col-md-6 p-6">
+            <div class="featured-info service-details-inner">
+              <h2>Medical Support</h2>
+              <p>
+                We travel with specialized doctors and carry with us all
+                necessary medications, ensuring you are in safe hands at all
+                times.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 div-img">
+            <img
+              src="img/hajj6.jpg"
+              class="img-fluid div-image"
+              alt="Medical Support Image"
+            />
+          </div>
+        </div>
+      </div>
     </section>
+    <!--/ End service -->
 
-    
-    <!--/ End Contact Us -->
-
-        <!-- Footer Area -->
-        <footer id="footer" class="footer">
+    <!-- Footer Area -->
+    <footer id="footer" class="footer">
       <!-- Footer Top -->
       <div class="footer-top">
         <div class="container">
@@ -303,19 +358,19 @@
                 <!-- Explore List -->
                 <ul class="justify-content-around">
                   <li>
-                    <a href="packages.html#hajj-packages"
+                    <a href="packages#hajj-packages"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i>Hajj
                       Package</a
                     >
                   </li>
                   <li>
-                    <a href="packages.html#umra-package"
+                    <a href="packages#umra-package"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i>Umra
                       Package</a
                     >
                   </li>
                   <li>
-                    <a href="packages.html#proxy-packages"
+                    <a href="packages#proxy-packages"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i>Hajj
                       by Proxy</a
                     >
@@ -332,19 +387,19 @@
                 <!-- Links Links List -->
                 <ul class="justify-content-around">
                   <li>
-                    <a href="index.html"
+                    <a href="https://alsafaa.co.tz/"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i
                       >Home</a
                     >
                   </li>
                   <li>
-                    <a href="services.html"
+                    <a href="services"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i
                       >Services</a
                     >
                   </li>
                   <li>
-                    <a href="about.html#gallery"
+                    <a href="about#gallery"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i
                       >Gallery</a
                     >
@@ -360,13 +415,13 @@
                 <!-- Support Links List -->
                 <ul class="justify-content-around">
                   <li>
-                    <a href="faqs.html"
+                    <a href="faqs"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i
                       >FAQs</a
                     >
                   </li>
                   <li>
-                    <a href="contact.html"
+                    <a href="contact"
                       ><i class="fa fa-caret-right" aria-hidden="true"></i
                       >Contact Us</a
                     >
@@ -411,49 +466,49 @@
       </div>
       <!--/ End Copyright -->
     </footer>
-        <!--/ End Footer Area -->
+    <!--/ End Footer Area -->
 
-        <!-- jquery Min JS -->
-        <script src="js/jquery.min.js"></script>
-        <!-- jquery Migrate JS -->
-        <script src="js/jquery-migrate-3.0.0.js"></script>
-        <!-- jquery Ui JS -->
-        <script src="js/jquery-ui.min.js"></script>
-        <!-- Easing JS -->
-        <script src="js/easing.js"></script>
-        <!-- Color JS -->
-        <script src="js/colors.js"></script>
-        <!-- Popper JS -->
-        <script src="js/popper.min.js"></script>
-        <!-- Bootstrap Datepicker JS -->
-        <script src="js/bootstrap-datepicker.js"></script>
-        <!-- Jquery Nav JS -->
-        <script src="js/jquery.nav.js"></script>
-        <!-- Slicknav JS -->
-        <script src="js/slicknav.min.js"></script>
-        <!-- ScrollUp JS -->
-        <script src="js/jquery.scrollUp.min.js"></script>
-        <!-- Niceselect JS -->
-        <script src="js/niceselect.js"></script>
-        <!-- Tilt Jquery JS -->
-        <script src="js/tilt.jquery.min.js"></script>
-        <!-- Owl Carousel JS -->
-        <script src="js/owl-carousel.js"></script>
-        <!-- counterup JS -->
-        <script src="js/jquery.counterup.min.js"></script>
-        <!-- Steller JS -->
-        <script src="js/steller.js"></script>
-        <!-- Wow JS -->
-        <script src="js/wow.min.js"></script>
-        <!-- Magnific Popup JS -->
-        <script src="js/jquery.magnific-popup.min.js"></script>
-        <!-- Counter Up CDN JS -->
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-        <!-- Bootstrap JS -->
-        <script src="js/bootstrap.min.js"></script>
-        <!-- Main JS -->
-        <script src="js/main.js"></script>
-      </body>
-    </html>
+    <!-- jquery Min JS -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jquery Migrate JS -->
+    <script src="js/jquery-migrate-3.0.0.js"></script>
+    <!-- jquery Ui JS -->
+    <script src="js/jquery-ui.min.js"></script>
+    <!-- Easing JS -->
+    <script src="js/easing.js"></script>
+    <!-- Color JS -->
+    <script src="js/colors.js"></script>
+    <!-- Popper JS -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap Datepicker JS -->
+    <script src="js/bootstrap-datepicker.js"></script>
+    <!-- Jquery Nav JS -->
+    <script src="js/jquery.nav.js"></script>
+    <!-- Slicknav JS -->
+    <script src="js/slicknav.min.js"></script>
+    <!-- ScrollUp JS -->
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <!-- Niceselect JS -->
+    <script src="js/niceselect.js"></script>
+    <!-- Tilt Jquery JS -->
+    <script src="js/tilt.jquery.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="js/owl-carousel.js"></script>
+    <!-- counterup JS -->
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- Steller JS -->
+    <script src="js/steller.js"></script>
+    <!-- Wow JS -->
+    <script src="js/wow.min.js"></script>
+    <!-- Magnific Popup JS -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!-- Counter Up CDN JS -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+    <!-- Faqs -->
+    <script src="js/faqs.js"></script>
   </body>
 </html>
