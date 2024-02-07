@@ -241,7 +241,7 @@
           </div>
           <div class="col-md-6 div-img">
             <img
-              src="img/hajj4.jpg"
+              src="img/histor.jpg"
               class="img-fluid div-image"
               alt="Historical Site Visits Image"
             />
