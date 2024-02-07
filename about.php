@@ -333,72 +333,77 @@
           <h2>Our Journey in Images</h2>
           <p>Explore the moments that define our spiritual journey</p>
         </div>
+
+          <style>
+              #thumbnailCarousel{
+                  z-index: 99999;
+                  position: relative;
+              }
+              #thumbnailCarousel .active{
+                  border-top: 3px solid #6C3F1C;
+              }
+              #thumbnailCarousel .carousel-item {
+                  cursor: pointer;
+              }
+
+              #thumbnailCarousel .carousel-item {
+                  display: inline-block;
+                  width: 5.65em;
+                  cursor: pointer;
+                  margin-top: 1em;
+              }
+
+              .thumbnails-images .carousel-item img{
+                  object-fit: cover;
+                  height: 100%; /* Ensure the image covers the entire height of the container */
+                  width: 100% !important;  /* Ensure the image covers the entire width of the container */
+              }
+          </style>
         <div class="container">
           <div id="carouselExample" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/hajj1.jpg" class="d-block w-100" alt="Hijja 1" />
-              </div>
-              <div class="carousel-item">
-                <img src="img/hajj2.jpg" class="d-block w-100" alt="Hijja 2" />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="img/hujjaj1.jpg"
-                  class="d-block w-100"
-                  alt="Hujjaj 1"
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="img/hujjaj2.jpg"
-                  class="d-block w-100"
-                  alt="Hujjaj 2"
-                />
-              </div>
-              <div class="carousel-item">
-                <img src="img/hajj3.jpg" class="d-block w-100" alt="Hijja 3" />
-              </div>
-              <div class="carousel-item">
-                <img src="img/hajj4.jpg" class="d-block w-100" alt="Hijja 4" />
-              </div>
-              <div class="carousel-item">
-                <img src="img/hajj5.jpg" class="d-block w-100" alt="Hijja 5" />
-              </div>
-              <div class="carousel-item">
-                <img src="img/hajj6.jpg" class="d-block w-100" alt="Hijja 6" />
-              </div>
-              <div class="carousel-item">
-                <img src="img/hajj7.jpg" class="d-block w-100" alt="Hijja 7" />
-              </div>
-              <div class="carousel-item">
-                <img src="img/hajj8.jpg" class="d-block w-100" alt="Hijja 8" />
-              </div>
-              <div class="carousel-item">
-                <img src="img/hajj9.jpg" class="d-block w-100" alt="Hijja 9" />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="img/hajj10.jpg"
-                  class="d-block w-100"
-                  alt="Hijja 10"
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="img/hajj11.jpg"
-                  class="d-block w-100"
-                  alt="Hijja 11"
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="img/hajj12.jpg"
-                  class="d-block w-100"
-                  alt="Hijja 12"
-                />
-              </div>
+                <?php
+                $images = array(
+                    "zunguka.jpg",
+                    "hajj1.jpg",
+                    "hajj2.jpg",
+                    "hajj3.jpg",
+                    "kanga.jpg",
+                    "hajj5.jpg",
+                    "hajj6.jpg",
+                    "safa.jpg",
+                    "hajj8.jpg",
+                    "group.jpg",
+                    "hajj10.jpg",
+                    "jabal.jpg",
+                    "hajj12.jpg",
+                );
+
+                foreach($images as $key=>$single_hajj_image){
+                    ?>
+                    <div class="carousel-item <?php echo ($key==0)?"active":""?>">
+                        <img src="img/<?php echo $single_hajj_image;?>" class="d-block w-100" alt="Hijja <?php echo $key?>" />
+                    </div>
+                <?php
+                }
+                ?>
             </div>
+
+              <!-- Thumbnails carousel -->
+              <div id="thumbnailCarousel" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner thumbnails-images">
+                      <?php foreach($images as $key=>$single_hajj_image){
+                      ?>
+                      <div class="carousel-item <?php echo ($key==0)?"active":""?>">
+                          <img src="img/<?php echo $single_hajj_image;?>" class="d-block w-100" alt="Hijja <?php echo $key?>" />
+                      </div>
+                      <?php
+                      }
+                      ?>
+                  </div>
+              </div>
+
+
             <a
               class="carousel-control-prev"
               href="#carouselExample"
@@ -627,5 +632,23 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- Main JS -->
     <script src="js/main.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            // Handle click events on thumbnail items
+            $('#thumbnailCarousel .carousel-item').on('click', function () {
+                // Remove active class from all thumbnail items
+                $('#thumbnailCarousel .carousel-item').removeClass('active');
+
+                // Add active class to the clicked thumbnail item
+                $(this).addClass('active');
+
+                // Update main carousel to the clicked thumbnail index
+                var index = $(this).index();
+                $('#carouselExample').carousel(index);
+            });
+        });
+    </script>
   </body>
 </html>
