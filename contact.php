@@ -163,18 +163,18 @@
                       <div class="men">
                         <h3 class="pt-3">Men</h3>
                         <ul>
-                      <li>Alhajj Othman Khamis Chekechea: +255716669520</li>
-                      <li>Alhajj Mohammed Mzee Mbaba: +255777847961</li>
-                      <li>Alhajj Abbas Ramadhan Abbas: +255713298114</li>
-                      <li>Alhajj Bashir Juma Nyagasa: +255784274206</li>
-                      <li>Alhajj Suleiman Mohamed Bahri: +255777416477</li>
-                      <li>Alhajj Hamisi Abdallah Babu: +255763820050</li>
-                      <li>Alhajj Sameer Maqbul Ibrahim: +255684800900</li>
-                      <li>Alhajj Ali Said Mwinyihindi: +255687882231</li>
-                      <li>Alhajj Mehboob Al Haddad: +255717030366</li>
-                      <li>Alhajj Hamid Haji Machano: +255777428773</li>
-                      <li>Alhajj Jamal Mwarab Khalfan: +255693668066</li>
-                      <li>Alhajj Hudhaifa Ahmed Abdulla: +255777415915</li>
+                            <li>Alhaji Muhmmad A. Dedas    +255655462022</li>
+                            <li>Alhajj Othman Khamis Chekechea:  +255716669520</li>
+                            <li>Alhajj Mohammed Mzee Mbaba:  +255777847961</li>
+                            <li>Alhajj Abbas Ramadhan Abbas:  +255713298114</li>
+                            <li>Alhajj Bashir Juma Nyagasa:   +255784274206</li>
+                            <li>Alhajj Suleiman Mohamed Bahri:  +255777416477</li>
+                            <li>Alhajj Hamisi Abdallah Babu:   +255763820050</li>
+                            <li>Alhajj Sameer Maqbul Ibrahim:  +255684800900</li>
+                            <li>Alhajj Ali Said Mwinyihindi:   +255687882231</li>
+                            <li>Alhajj Sayed Mehboob Al Haddad:  +255717030366</li>
+                            <li>Alhajj Hamid Haji Machano:   +255777428773</li>
+                            <li>Alhajj Jamal Mwarab Khalfan:   +255693668066</li>
                         </ul>
                       </div>
                     </div>
