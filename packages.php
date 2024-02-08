@@ -4,12 +4,12 @@
     <!-- Meta Tags -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="Al Safaa Hajj Umra and Trust Team" />
-    <meta name="keywords" content="Hajj, Umra, Pilgrimage, Al Safaa Hajj Umra and Trust, Makkah, Madinah, Spiritual Journey, Islamic Pilgrimage, Packages, Pricing">
-    <meta name="description" content="Explore our pilgrimage packages and pricing at Al Safaa Hajj Umra and Trust. Join our upcoming journey from 06/06/2024 to 29/06/2024. Book now for a spiritual experience of a lifetime.">
+    <meta name="author" content="Al Safaa Hajj and Umra Trust Team" />
+    <meta name="keywords" content="Hajj, Umra, Pilgrimage, Al Safaa Hajj and Umra Trust, Makkah, Madinah, Spiritual Journey, Islamic Pilgrimage, Packages, Pricing">
+    <meta name="description" content="Explore our pilgrimage packages and pricing at Al Safaa Hajj and Umra Trust. Join our upcoming journey from 06/06/2024 to 29/06/2024. Book now for a spiritual experience of a lifetime.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Title -->
-    <title>Packages - Al Safaa Hajj Umra and Trust</title>
+    <title>Packages - Al Safaa Hajj and Umra Trust</title>
 
       <meta property="og:image" content="img/og-alsafaa-home.jpg" />
       <meta property="og:image:width" content="1200" />
@@ -46,6 +46,16 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-DF9PJF4EXN"></script>
+      <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-DF9PJF4EXN');
+      </script>
   </head>
   <body>
     <!-- Preloader -->
