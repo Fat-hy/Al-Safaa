@@ -11,8 +11,11 @@
     <!-- Title -->
     <title>Packages - Al Safaa Hajj Umra and Trust</title>
 
-    <!-- Favicon -->
-    <link rel="icon" href="img/favicon.svg" />
+      <meta property="og:image" content="img/og-alsafaa-home.jpg" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+      <!-- Favicon -->
+      <link rel="icon" href="img/icon.png" />
 
     <!-- Google Fonts -->
     <link

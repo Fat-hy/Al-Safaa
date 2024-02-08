@@ -11,9 +11,11 @@
     <!-- Title -->
     <title>Our Services - Al Safaa Hajj Umra and Trust</title>
 
-    <!-- Favicon -->
-    <link rel="icon" href="img/favicon.svg" />
-
+      <meta property="og:image" content="img/og-alsafaa-home.jpg" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+      <!-- Favicon -->
+      <link rel="icon" href="img/icon.png" />
     <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
