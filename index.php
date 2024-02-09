@@ -4,14 +4,14 @@
     <!-- Meta Tags -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="Al Safaa Hajj Umra and Trust Team" />
+    <meta name="author" content="Al Safaa Hajj and Umra Trust Team" />
     <meta
       name="keywords"
-      content="Hajj, Umra, Pilgrimage, Al Safaa Hajj Umra and Trust, Makkah, Madinah, Spiritual Journey, Islamic Pilgrimage"
+      content="Hajj, Umra, Pilgrimage, Al Safaa Hajj and Umra Trust, Makkah, Madinah, Spiritual Journey, Islamic Pilgrimage"
     />
     <meta
       name="description"
-      content="Al Safaa Hajj Umra and Trust offers top-notch Hajj and Umra pilgrimage services. Join us on our upcoming journey from 06/06/2024 to 29/06/2024. Book now for a spiritual experience of a lifetime."
+      content="Al Safaa Hajj and Umra Trust offers top-notch Hajj and Umra pilgrimage services. Join us on our upcoming journey from 06/06/2024 to 29/06/2024. Book now for a spiritual experience of a lifetime."
     />
     <meta
       name="viewport"
@@ -20,7 +20,7 @@
 
     <!-- Title -->
     <title>
-      Al Safaa Hajj Umra and Trust - Providing Exceptional Pilgrimage Services
+      Al Safaa Hajj and Umra Trust - Providing Exceptional Pilgrimage Services
     </title>
 
 
@@ -59,6 +59,17 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-DF9PJF4EXN"></script>
+      <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-DF9PJF4EXN');
+      </script>
+
   </head>
   <body>
     <!-- Preloader -->
@@ -216,7 +227,7 @@
                 <div class="text">
                   <h1 class="text-white">Your Spiritual Journey Starts Here</h1>
                   <p class="text-white">
-                    Al Safaa Hajj Umra and Trust is your gateway to a sacred
+                    Al Safaa Hajj and Umra Trust is your gateway to a sacred
                     pilgrimage experience. Our dedicated team ensures your Hajj
                     and Umra journey is filled with devotion and tranquility.
                     Let us guide you on this sacred path.
@@ -251,7 +262,7 @@
                     <span>Personalized Journeys</span>
                     <h4>Embark on Your Unique Pilgrimage</h4>
                     <p>
-                      At Al Safaa Hajj Umra and Trust, we craft personalized
+                      At Al Safaa Hajj and Umra Trust, we craft personalized
                       pilgrimages that resonate with your soul. Your spiritual
                       journey is our priority. Let us create a bespoke
                       experience tailored to your beliefs, making your
@@ -273,7 +284,7 @@
                     <span>Expert Spiritual Guidance</span>
                     <h4>Your Trusted Pilgrimage Advisors</h4>
                     <p>
-                      With Al Safaa Hajj Umra and Trust, you are guided by
+                      With Al Safaa Hajj and Umra Trust, you are guided by
                       experienced advisors dedicated to enhancing your spiritual
                       journey. Their deep knowledge and unwavering support
                       ensure every step you take is filled with meaning and
